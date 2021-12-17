@@ -19,7 +19,7 @@ public class RecordAudio {
         }
         isRecording = false;
     }
-
+    //something here not working
     void startRecording(String mFileName) {
         if (!isRecording) {
             mRecorder = new MediaRecorder();
